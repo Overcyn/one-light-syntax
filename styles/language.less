@@ -2,7 +2,7 @@
 
 .comment {
   color: @mono-3;
-  font-style: italic;
+  // font-style: italic;
 }
 
 .entity {
@@ -79,7 +79,8 @@
 }
 
 .variable {
-  color: @hue-5;
+  // Dot syntax
+  // color: @hue-5;
 
   &.interpolation {
     color: @hue-5-2;
@@ -94,17 +95,17 @@
   color: @hue-4;
 
 
-  &.regexp {
-    color: @hue-1;
-
-    .source.ruby.embedded {
-      color: @hue-6-2;
-    }
-  }
-
-  &.other.link {
-    color: @hue-5;
-  }
+  // &.regexp {
+  //   color: @hue-1;
+  //
+  //   .source.ruby.embedded {
+  //     color: @hue-6-2;
+  //   }
+  // }
+  //
+  // &.other.link {
+  //   color: @hue-5;
+  // }
 }
 
 .punctuation {
@@ -152,21 +153,24 @@
 }
 
 .support {
-  &.class {
-    color: @hue-6-2;
-  }
+  // NSNumber etc.
+  // &.class {
+  //   color: @hue-6-2;
+  // }
+  
+  // CGFloat
+  // &.type {
+  //   color: @hue-1;
+  // }
 
-  &.type {
-    color: @hue-1;
-  }
-
-  &.function  {
-    color: @hue-1;
-
-    &.any-method {
-      color: @hue-2;
-    }
-  }
+  // bracket method calls
+  // &.function  {
+  //   color: @hue-1;
+  //
+  //   &.any-method {
+  //     color: @hue-2;
+  //   }
+  // }
 }
 
 .entity {
@@ -189,7 +193,7 @@
 
   &.other.attribute-name {
     color: @hue-6;
-
+  
     &.id {
       color: @hue-2;
     }
@@ -243,14 +247,15 @@
 }
 
 .invalid {
-  &.deprecated {
-    color: @syntax-deprecated-fg !important;
-    background-color: @syntax-deprecated-bg !important;
-  }
-  &.illegal {
-    color: @syntax-illegal-fg !important;
-    background-color: @syntax-illegal-bg !important;
-  }
+  // Fix %@ being marked as red
+  // &.deprecated {
+  //   color: @syntax-deprecated-fg !important;
+  //   background-color: @syntax-deprecated-bg !important;
+  // }
+  // &.illegal {
+  //   color: @syntax-illegal-fg !important;
+  //   background-color: @syntax-illegal-bg !important;
+  // }
 }
 
 // Languages -------------------------------------------------
